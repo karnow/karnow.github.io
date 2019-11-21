@@ -4,6 +4,8 @@
 
 @import "modules/hero.scss";
 @import "modules/skills.scss";
+@import "modules/projects.scss";
+
 
 html {
   
@@ -25,4 +27,9 @@ body {
   border: 16px solid $bigstone;
 
  
+}
+
+.container {
+  max-width: 1184px;
+  margin: 0 auto;
 }
