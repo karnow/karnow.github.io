@@ -5,6 +5,7 @@
 @import "modules/hero.scss";
 @import "modules/skills.scss";
 @import "modules/projects.scss";
+@import "modules/contact.scss";
 
 
 html {
@@ -32,4 +33,5 @@ body {
 .container {
   max-width: 1184px;
   margin: 0 auto;
+  
 }
