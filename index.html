@@ -36,7 +36,7 @@
     <main>
       <section class="hero">
         <img class="hero__image" src="assets/img/karoljpg.jpg" alt="Karol Nowakowski.">
-        <h1 class="hero__title">Hey there! 👋 My name is Maciej and I’m an aspiring Frontend developer and a keen Star Wars fan. </h1>
+        <h1 class="hero__title">Hey there! 👋 My name is Karol and I’m an aspiring Frontend developer and a keen Star Wars fan. </h1>
         <p class="hero__description">You might be interested in checking the list of my <a class="hero__link" href="#my-skills">skills</a>. Don’t forget to  have a glimpse at<a class="hero__link" href="#my-projects"> my projects</a>. Currently I’m looking for a new challenges so if you have one - <a class="hero__link" href="#contact">contact me </a>😊</p>
         <a class="hero__mail" href="mailto:karol-nowakowski@p2.pl">karol-nowakowski@o2.pl</a>
       </section>
@@ -57,7 +57,7 @@
               <li class="skills-list__item">SASS</li>
             </ul>
         </section>
-          <section class="skills-list">
+          <section class="skills-list skills-list--violet">
               <h3 class="skills-list__title">Know something about</h3>
                 <ul class="skills-list__list">
                   <li class="skills-list__item">JavaScript ES6+ features</li>
@@ -69,7 +69,7 @@
                   <li class="skills-list__item">Accessibility</li>
                 </ul>
             </section>
-            <section class="skills-list">
+            <section class="skills-list skills-list--blue">
                 <h3 class="skills-list__title">Want to learn</h3>
                   <ul class="skills-list__list">
                     <li class="skills-list__item">React JS</li>
@@ -88,48 +88,62 @@
       </section>
       <section id="my-projects" class="projects">
         <h2 class="projects__title">Recent projects</h2>
+        <div class="container">
         <p class="projects__description">I started my frontend developer path in 2003. Since then, I’ve built some projects. Here’s the list of the things I’ve done so far.</p>
         <ul class="projects-list">
+
           <li class="project">
-          <img class="project__logo" src="#" alt="">
+              <div class="project__container">
+          <img class="project__logo" src="assets/img/github.svg" alt="">
           <h3 class="project__title">podlaskigit</h3> 
           <p class="project__description">Podlaskie aliasy dla gitowych komend</p>
+              </div>
             <div class="project__footer">
-              <a class="project__link" href="#" title="Demo: podlaskigit.">DEMO</a>
-              <a class="project__link" href="#" title="Source code: podlaskigit.">GiHub</a>
+              <a class="project__link project__link--demo" href="#" title="Demo: podlaskigit.">Demo</a>
+              <a class="project__link project__link--code" href="#" title="Source code: podlaskigit.">Github</a>
             </div>
           </li> 
+
           <li class="project">
-              <img class="project__logo" src="#" alt="">
+              <div class="project__container">
+              <img class="project__logo" src="assets/img/github.svg" alt="">
               <h3 class="project__title">podlaskigit</h3> 
               <p class="project__description">Podlaskie aliasy dla gitowych komend</p>
+            </div>
                 <div class="project__footer">
-                  <a class="project__link" href="#" title="Demo: podlaskigit.">DEMO</a>
-                  <a class="project__link" href="#" title="Source code: podlaskigit.">GiHub</a>
+                  <a class="project__link project__link--demo" href="#" title="Demo: podlaskigit.">Demo</a>
+                  <a class="project__link project__link--code" href="#" title="Source code: podlaskigit.">Github</a>
                 </div>
               </li> 
+
             <li class="project">
-                <img class="project__logo" src="#" alt="">
+                <div class="project__container">
+                <img class="project__logo" src="assets/img/github.svg" alt="">
                 <h3 class="project__title">podlaskigit</h3> 
                 <p class="project__description">Podlaskie aliasy dla gitowych komend</p>
+                </div>
                     <div class="project__footer">
-                        <a class="project__link" href="#" title="Demo: podlaskigit.">DEMO</a>
-                        <a class="project__link" href="#" title="Source code: podlaskigit.">GiHub</a>
+                        <a class="project__link project__link--demo" href="#" title="Demo: podlaskigit.">Demo</a>
+                        <a class="project__link project__link--code" href="#" title="Source code: podlaskigit.">Github</a>
                     </div>
                     </li> 
+
             <li class="project">
-                  <img class="project__logo" src="#" alt="">
+                <div class="project__container">
+                  <img class="project__logo" src="assets/img/github.svg" alt="">
                   <h3 class="project__title">podlaskigit</h3> 
                   <p class="project__description">Podlaskie aliasy dla gitowych komend</p>
+                </div>
                     <div class="project__footer">
-                        <a class="project__link" href="#" title="Demo: podlaskigit.">DEMO</a>
-                        <a class="project__link" href="#" title="Source code: podlaskigit.">GiHub</a>
+                        <a class="project__link project__link--demo" href="#" title="Demo: podlaskigit.">Demo</a>
+                        <a class="project__link project__link--code" href="#" title="Source code: podlaskigit.">Github</a>
                     </div>
                     </li> 
 
 
 
         </ul>
+        </div>
 
 
 
@@ -137,24 +151,25 @@
 
       <footer class="contact" id="contact">
         <h2 class="contact__title">Contact me</h2>
+        <div class="container">
         <p class="contact__description">I’m open for new opportunities. If you have one for me we should talk!</p>
         <ul class="social">
             <li class="social__item">
               <a class="social__link" href="#">
-                <img class="social__icon" src="" alt="Facebook"></a>
+                <img class="social__icon" src="assets/img/fb-icon.svg" alt="Facebook"></a>
               </li>
             <li class="social__item">
               <a class="social__link" href="#">
-                <img class="social__icon" src="" alt="Github"></a>
+                <img class="social__icon" src="assets/img/git-icon.svg" alt="Github"></a>
               </li>
             <li class="social__item">
               <a class="social__link" href="#">
-                <img class="social__icon" src="" alt="Istagram"></a>
+                <img class="social__icon" src="assets/img/istagram-icon.svg" alt="Istagram"></a>
               </li>
         </ul>
 
-        <a class="hero__mail" href="mailto:karol-nowakowski@p2.pl">karol-nowakowski@o2.pl</a>
-            
+        <a class="contact__mail" href="mailto:karol-nowakowski@p2.pl">karol-nowakowski@o2.pl</a>
+        </div>
          
       </footer>
 
